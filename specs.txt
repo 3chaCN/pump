@@ -1,0 +1,10 @@
+- pompe(s)
+- capteur(s) pression
+- capteur(s) humidité
+
+(GPIO : 3 fils ; 1x pompe 2x capteurs)
+(SPI : ?)
+
+A simuler : - commande lecture (ioctl) : affichage valeur dans dmesg
+	    - fichier dans /sys stockant les valeurs dans 3 attributs
+	    https://sysprog21.github.io/lkmpg/#sysfs-interacting-with-your-module
